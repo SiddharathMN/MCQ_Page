@@ -1,0 +1,80 @@
+ body{
+  margin: 0;
+  background-image: url("./images/neutron\ star.gif");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  color:#ffffff;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::before{
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -100;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.submit{
+  padding: 10px 20px;
+  background-color: #4caf4f00;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(255, 166, 0);
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.fire{
+  background-color: white;
+  border : 5px solid whitesmoke;
+  position : fixed;
+  top : 80% ; 
+  left : 90%;
+  border-radius:50%;
+  padding: 18px 0px 18px 0px;
+  z-index:100;
+}
+
+.fire:hover{
+  transform: scale(1.02);
+  background-color: white;
+  border : 5px solid whitesmoke;
+  opacity: 0.8;
+}
+
+.mainContent{
+  z-index: 100;
+  
+}
+
+.mainQuestion{
+  width:40%;
+  padding-left: 20px;
+}
+
+.documentation{
+  position:fixed;
+  top : 3%;
+  left:50%;
+  background-color: rgba(128, 0, 128, 0.334);
+  align-self: left;
+  width : 35%;
+  height:90%;
+  border : 3px solid rgba(255, 68, 0, 0.384);
+  padding : 2px;
+  padding-left:10px;
+}
